@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Number to Binary Converter</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Translation</h1>
+        </header>
+        <div class="translation-box">
+            <div class="input-section">
+                <select class="language-select" id="option">
+                    <option>Binary</option>
+                    <option>Decimal</option>
+                </select>
+                <textarea placeholder="Type Number here..." id="from" ></textarea>
+            </div>
+            <div class="output-section">
+                <input type="text" class="language-select" id="language-select" placehrolde="Translation" readonly >
+                <textarea placeholder="Translation" id="to"  readonly></textarea>
+            </div>
+        </div>
+        <footer>
+            <button class="Translation" onclick="Translation()">Translation</button>
+        </footer>
+    </div>
+    <script src="main.js"></script>        
+</body>
+</html>
