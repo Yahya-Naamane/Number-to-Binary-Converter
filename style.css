@@ -78,11 +78,7 @@ textarea[readonly] {
     align-items: center;
     justify-content: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    margin: 0 45%; 
-}
-
-.swap-btn:hover {
-    background-color: #0056b3;
+    margin: 0 44%; 
 }
 
 footer {
@@ -102,5 +98,10 @@ footer {
     }
     .container {
         margin-top: 150px;
+    }
+    .Translation{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
